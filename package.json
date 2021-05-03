@@ -1,0 +1,33 @@
+{
+  "name": "codilab",
+  "version": "1.0.0",
+  "description": "Codilab API made with NodeJs and Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoMnrq/Codilab-API.git"
+  },
+  "author": "MarcoMnrq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoMnrq/Codilab-API/issues"
+  },
+  "homepage": "https://github.com/MarcoMnrq/Codilab-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}

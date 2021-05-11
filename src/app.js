@@ -23,7 +23,9 @@ app.use(cors());
 app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static("./static"));
+
+// Route configuration
+app.use("/api/v1/courses", require("./route/course.controller"));
 
 // Listening to port
 app.listen(port);
